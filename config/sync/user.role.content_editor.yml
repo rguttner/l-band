@@ -9,7 +9,9 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - comment
+    - content_moderation
     - contextual
+    - field_ui
     - file
     - node
     - path
@@ -28,6 +30,7 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access toolbar'
+  - 'administer node display'
   - 'administer url aliases'
   - 'create audio_sample content'
   - 'create page content'
@@ -51,5 +54,6 @@ permissions:
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'view all revisions'
+  - 'view any unpublished content'
   - 'view own unpublished content'
   - 'view the administration theme'
